@@ -2,19 +2,55 @@ body {
     background: lightblue;
 }
 
+
+.photo {
+    border: 15px solid black;
+    border-radius: 50% ;
+}
+
 #title, .sub_title, .post_title {
   color: blue;
+  padding-left: 15px;
+}
+
+#title {
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .post_title {
    font-size: 16;
    font-style: italic;
+   margin: 0;
+   margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post {
     background: white;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid black;
-    margin: 20px
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.post_img {
+    margin-bottom: 15px;
+    border: 5px solid white;
+    border-radius: 50% ;
+}
+
+.list {
+   list-style-type: none;
+   padding-left: 15px;
 }
 
