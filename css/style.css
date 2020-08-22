@@ -1,5 +1,8 @@
 body {
     background: lightblue;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 
@@ -27,6 +30,7 @@ a {
    font-style: italic;
    margin: 0;
    margin-bottom: 15px;
+   text-align: center;
 }
 
 .post_content {
@@ -45,8 +49,8 @@ a {
 
 .post_img {
     margin-bottom: 15px;
-    border: 5px solid white;
-    border-radius: 50% ;
+    width: 100%;
+    height:100%;
 }
 
 .list {
